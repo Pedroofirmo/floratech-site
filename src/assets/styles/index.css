@@ -483,7 +483,7 @@ footer .footer-credits p {
     display: none;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 460px) {
     *{
     margin: 0;
     padding: 0;
