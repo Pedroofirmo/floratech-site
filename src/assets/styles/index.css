@@ -516,7 +516,7 @@ footer .footer-credits p {
     }
 
     .cards-cultura{
-        max-width: 500px;
+        max-width: 768px;
         justify-self: center;
         display: flex;
         flex-direction: column;
