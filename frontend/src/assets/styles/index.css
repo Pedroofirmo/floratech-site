@@ -483,19 +483,14 @@ footer .footer-credits p {
     display: none;
 }
 
-@media (max-width: 768px) {
-    *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
+@media (max-width: 500px) {
 
     .video-background iframe{
         transform: translate(-50%, -50%) scale(1.5);
     }
 
     header{
-        max-width: 500px;
+        max-width: 100%;
     }
 
     .logo-header h2{
@@ -516,7 +511,7 @@ footer .footer-credits p {
     }
 
     .cards-cultura{
-        max-width: 768px;
+        max-width: 100%;
         justify-self: center;
         display: flex;
         flex-direction: column;
