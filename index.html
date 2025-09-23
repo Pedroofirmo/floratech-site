@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>FloraTech - Home</title>
+    <link rel="stylesheet" href="./src/assets/styles/index.css">
+    <link rel="shortcut icon" href="src/assets/img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="video-background" aria-hidden="true">
+        <iframe
+            src="https://customer-e1a9i7b1w1aqrawi.cloudflarestream.com/96e9c6ef6d8abbaebadff3b52f0cce68/iframe?autoplay=1&muted=1&loop=1&controls=0&poster=https%3A%2F%2Fcustomer-e1a9i7b1w1aqrawi.cloudflarestream.com%2F8ce7f39ae75e20a84ec5a88b73b57f4c%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+            frameborder="0"
+            qallow="autoplay"
+            allowfullscreen
+        ></iframe>
+    <header >
+        <div class="logo-header">
+            <img src="src/assets/img/logo-branca.png" alt="logo">
+            <h2>FloraTech</h2>
+        </div>
+        <nav class="links">
+            <a href="./index.html">Home</a>
+            <a href="./src/pages/floratech.html">Sensores</a>
+            <a href="./src/pages/graficos.html">Gráficos</a>
+            <div class="linha"></div>
+            <button>Login</button>
+            <button class="button-02">Ver mais</button>
+        </nav>
+    </header>
+    <main>
+        <h2>Bem-vindo à FloraTech!</h2>
+        <h2>Sua plataforma gestora de estufas</h2>
+        <p>Aqui você poderá monitorar sua estufa em tempo real, visualizar gráficos <br> e gerenciar seus dados de plantio.</p>
+        <div class="button-mobile">
+            <button class="btn-mobile1">Login</button>
+            <button class="btn-mobile2" id="vermais">Ver mais</button>
+        </div>
+    </main>
+    </div>
+    <section class="culturas">
+        <div class="titulo-section-culturas">
+            <h2>Culturas que a floratech trabalha</h2>
+        </div>
+        <div class="cards-cultura"> 
+            <div class="card card-01" id="card-cima">
+                <img src="src/assets/img/rosas.jpeg" alt="Imagem do card">
+                <div class="overlay">
+                <p>Flores ornamentais</p>
+            </div>
+        </div>
+        <div class="card card-02">
+            <img src="src/assets/img/feijao.jpeg" alt="Imagem do card">
+            <div class="overlay">
+                <p>Leguminosas</p>
+            </div>
+        </div>
+        <div class="card card-03" id="card-cima">
+            <img src="src/assets/img/alface.jpeg" alt="Imagem do card">
+            <div class="overlay">
+                <p>Verduras</p>
+            </div>
+        </div>
+        <div class="card card-04">
+            <img src="src/assets/img/tomate.jpeg" alt="Imagem do card">
+            <div class="overlay">
+                <p>Frutiferas</p>
+            </div>
+        </div>
+        <div class="card card-05" id="card-cima">
+            <img src="src/assets/img/hortela.jpeg" alt="Imagem do card">
+            <div class="overlay">
+                <p>Condimentares</p>
+            </div>
+        </div>
+    </div>
+    <div class="btn-culturas">
+        <button class="btn-play">
+            <img src="src/assets/img/play.svg" alt="butão" class="icon-play">
+            <p>Veja como funciona</p>
+        </button>
+    </div>
+    </section>
+    <section class="dispositivo">
+    <div class="section-sensores">
+        <nav class="menu-opcoes">
+            <button class="opcao active" data-tab="umidade">Umidade</button>
+            <button class="opcao" data-tab="temperatura">Temperatura</button>
+            <button class="opcao" data-tab="ph">Ph do solo</button>
+            <button class="opcao" data-tab="luminosidade">Luminosidade</button>
+            <button class="opcao" data-tab="co2">Co2</button>
+        </nav>
+
+        <div class="card-sensores">
+        <div class="card-explicativo active" id="umidadesolo">
+            <p>O sensor de umidade do solo é responsável por medir a quantidade de água presente na terra onde as plantas estão cultivadas. Ele fornece informações precisas sobre o nível de umidade, permitindo que o sistema saiba exatamente quando é necessário irrigar. Isso evita tanto o excesso quanto a falta de água, fatores que podem prejudicar o crescimento saudável das plantas. Além disso, ao acompanhar continuamente a umidade, é possível otimizar o consumo de água, economizando recursos e garantindo que as raízes absorvam a quantidade ideal de líquidos para um desenvolvimento robusto. Esse sensor é essencial para sistemas automatizados de irrigação, permitindo ajustes em tempo real de acordo com as condições climáticas e do solo.</p>
+            <img src="src/assets/img/umidadedosolo.png" alt="Umidade do solo">
+        </div>
+        <div class="card-explicativo" id="temperatura">
+            <p>O sensor de temperatura monitora as condições térmicas dentro da estufa, tanto durante o dia quanto à noite. A temperatura influencia diretamente a taxa de crescimento das plantas, a germinação de sementes e a absorção de água e nutrientes. Temperaturas muito altas podem causar estresse térmico, murcha das folhas e redução da fotossíntese, enquanto temperaturas muito baixas retardam o crescimento e podem danificar tecidos sensíveis. Com a leitura contínua da temperatura, o sistema pode acionar aquecedores, ventiladores ou telas de sombreamento automaticamente, mantendo o ambiente dentro da faixa ideal. Isso garante que as plantas cresçam em condições estáveis, promovendo florescimento uniforme e maior produtividade.</p>
+            <img src="src/assets/img/umidadedoar.png" alt="Temperatura">
+        </div>
+        <div class="card-explicativo" id="ph">
+            <p>O sensor de pH do solo mede o grau de acidez ou alcalinidade do substrato onde as plantas crescem. O pH influencia diretamente a disponibilidade de nutrientes essenciais, como nitrogênio, fósforo e potássio, para as raízes. Solo muito ácido pode prejudicar a absorção de certos nutrientes, enquanto solo alcalino pode reduzir a disponibilidade de outros. Com o monitoramento contínuo do pH, é possível realizar correções precisas usando calcário agrícola, enxofre ou adubos específicos, garantindo que o solo permaneça na faixa ideal para cada tipo de planta. No caso de rosas, por exemplo, manter o pH levemente ácido entre 6,0 e 6,5 promove flores mais saudáveis, raízes fortes e crescimento equilibrado. Esse sensor é crucial para prevenir deficiências nutricionais e melhorar o rendimento da plantação.</p>
+            <img src="src/assets/img/ph.png" alt="Ph do solo">
+        </div>
+        <div class="card-explicativo" id="luminosidade">
+            <p>O sensor de luminosidade mede a intensidade da luz que chega às plantas, geralmente em lux. A luz é fundamental para a fotossíntese, influenciando diretamente o crescimento, a formação de folhas e flores, e a qualidade final da produção. Luz insuficiente pode causar crescimento fraco, folhas amareladas e flores de baixa qualidade, enquanto luz excessiva pode provocar queimaduras e estresse das plantas. Ao monitorar a luminosidade, é possível acionar lâmpadas de cultivo, ajustar a posição das plantas ou utilizar telas de sombreamento para manter a intensidade luminosa dentro da faixa ideal (10.000 a 20.000 lux para rosas). Isso garante que cada planta receba a quantidade certa de luz, independentemente das condições externas.</p>
+            <img src="src/assets/img/luz.png" alt="Luminosidade">
+        </div>
+        <div class="card-explicativo" id="co2">
+            <p>O sensor de CO₂ mede a concentração de dióxido de carbono na estufa, um gás essencial para a fotossíntese. Plantas utilizam CO₂ para produzir energia e crescer, então níveis ideais (geralmente entre 800 e 1000 ppm) estimulam um desenvolvimento mais rápido e flores maiores e mais resistentes. Caso os níveis de CO₂ fiquem abaixo do ideal, a fotossíntese diminui, retardando o crescimento e afetando a produção de flores e frutos. Por outro lado, níveis excessivos podem ser prejudiciais e indicar má ventilação. Com monitoramento constante, é possível acionar sistemas de circulação de ar ou suplementação de CO₂ em cultivos controlados, otimizando a produtividade de forma segura e eficiente.</p>
+            <img src="src/assets/img/c02.png" alt="Co2">
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <div class="barra">
+        <div class="divisao web">
+            <img src="src/assets/img/computador.svg" alt="" id="computador">
+            <p>Web</p>
+        </div>
+        <div class="divisao dados">
+            <img src="src/assets/img/dados.svg" alt="" id="dados">
+            <p>Graficos dos dados</p>
+        </div>
+        <div class="divisao mobile">
+            <img src="src/assets/img/mobile.svg" alt="" id="mobile">
+            <p>Mobile</p>
+        </div>
+    </div>
+    
+    <footer>
+    <div class="texto-footer">
+        <h2>Flora Tech™</h2>
+        <p>Descubra como o FloraTech pode otimizar todos os aspectos do gerenciamento de sua Estufa — sem alterar a maneira como você cultiva.</p>
+    </div>
+    <div class="footer-links">
+        <a href="#">Sobre</a>
+        <a href="src/pages/floratech.html">Sensores</a>
+        <a href="src/pages/graficos.html">Graficos</a>
+    </div>
+    <div class="footer-contato">
+        <p>Email: contato@floratech.com</p>
+        <p>João Pedro & Pedro Ricardo</p>
+        <p>Endereço: Rua das Flores, 123 – Ubajara</p>
+    </div>
+    <div class="footer-credits">
+        <p>© 2025 Flora Tech™. Todos os direitos reservados.</p>
+    </div>
+    </footer>
+    <script src="src/scripts/index.js"></script>
+</body>
+</html>
