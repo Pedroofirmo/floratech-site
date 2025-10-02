@@ -474,7 +474,7 @@ footer .footer-contato p {
     font-size: 1.1rem; 
 }
 
-footer .footer-credits p {
+footer .footer-credito q    s p {
     font-size: 1rem; 
     margin-top: 30px;
 }
@@ -549,7 +549,6 @@ footer .footer-credits p {
         display: none;
     }
 
-    
     .button-mobile{
     display: flex;
     justify-content: center;
