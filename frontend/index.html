@@ -6,172 +6,178 @@
     <title>Home | FloraTech</title>
     <link rel="stylesheet" href="src/assets/styles/index.css">
     <link rel="icon" href="src/assets/img/logo.png" type="image/png">
-    </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
 <body>
     <div class="video-background" aria-hidden="true">
         <iframe
             src="https://customer-e1a9i7b1w1aqrawi.cloudflarestream.com/96e9c6ef6d8abbaebadff3b52f0cce68/iframe?autoplay=1&muted=1&loop=1&controls=0&poster=https%3A%2F%2Fcustomer-e1a9i7b1w1aqrawi.cloudflarestream.com%2F8ce7f39ae75e20a84ec5a88b73b57f4c%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
             frameborder="0"
-            qallow="autoplay"
+            allow="autoplay"
             allowfullscreen
         ></iframe>
-        <header >
-            <div class="logo-header">
-                <img src="src/assets/img/logo-branca.png" alt="logo">
-                <h2>FloraTech</h2>
-            </div>
-            <nav class="links">
-                <a href="./index.html">Home</a>
-                <a href="./src/pages/floratech.html">Sensores</a>
-                <a href="./src/pages/graficos.html">Gráficos</a>
-                <div class="linha"></div>
-                <button>Login</button>
-                <button class="button-02">Ver mais</button>
-            </nav>
-        </header>
-        <main>
-            <h2>Bem-vindo à FloraTech!</h2>
-            <h2>Sua plataforma gestora de estufas</h2>
-            <p>Aqui você poderá monitorar sua estufa em tempo real, visualizar gráficos <br> e gerenciar seus dados de plantio.</p>
-            <div class="button-mobile">
-                <button class="btn-mobile1">Login</button>
-                <button class="btn-mobile2" id="vermais">Ver mais</button>
-            </div>
-        </main>
     </div>
+
+    <header>
+        <div class="logo-header">
+            <img src="src/assets/img/logo-branca.png" alt="logo FloraTech">
+            <h2>FloraTech</h2>
+        </div>
+        <nav class="links">
+            <a href="./index.html">Home</a>
+            <a href="index.html">Sensores</a>
+            <a href="./src/pages/download.html">Download</a>
+            <div class="linha"></div>
+            <button>Login</button>
+            <button class="button-02">Contato</button>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Bem-vindo à FloraTech!</h2>
+        <h2>Sua plataforma gestora de estufas</h2>
+        <p>Aqui você poderá monitorar sua estufa em tempo real, visualizar gráficos <br> e gerenciar seus dados de plantio.</p>
+        <div class="button-mobile">
+            <button class="btn-mobile1">Login</button>
+            <button class="btn-mobile2" id="vermais">Ver mais</button>
+        </div>
+    </main>
 
     <section class="culturas">
         <div class="titulo-section-culturas">
-            <h2>Culturas que a floratech trabalha</h2>
+            <h2>Culturas que a FloraTech trabalha</h2>
         </div>
         <div class="cards-cultura"> 
             <div class="card card-01" id="card-cima">
-                <img src="src/assets/img/rosas.jpeg" alt="Imagem do card">
+                <img src="src/assets/img/rosas.jpeg" alt="Imagem de Rosas">
                 <div class="overlay">
-                <p>Flores ornamentais</p>
+                    <p>Flores</p>
+                </div>
+            </div>
+            <div class="card card-02">
+                <img src="src/assets/img/feijao.jpeg" alt="Imagem de Feijão">
+                <div class="overlay">
+                    <p>Hortaliças</p>
+                </div>
+            </div>
+            <div class="card card-03" id="card-cima">
+                <img src="src/assets/img/alface.jpeg" alt="Imagem de Alface">
+                <div class="overlay">
+                    <p>Verduras</p>
+                </div>
+            </div>
+            <div class="card card-04">
+                <img src="src/assets/img/tomate.jpeg" alt="Imagem de Tomate">
+                <div class="overlay">
+                    <p>Frutíferas</p>
+                </div>
+            </div>
+            <div class="card card-05" id="card-cima">
+                <img src="src/assets/img/hortela.jpeg" alt="Imagem de Hortelã">
+                <div class="overlay">
+                    <p>Condimentares</p>
+                </div>
             </div>
         </div>
-        <div class="card card-02">
-            <img src="src/assets/img/feijao.jpeg" alt="Imagem do card">
-            <div class="overlay">
-                <p>Leguminosas</p>
-            </div>
+        <div class="btn-culturas">
+            <button class="btn-play">
+                <img src="src/assets/img/play.svg" alt="Ícone de Play" class="icon-play">
+                <p>Veja como funciona</p>
+            </button>
         </div>
-        <div class="card card-03" id="card-cima">
-            <img src="src/assets/img/alface.jpeg" alt="Imagem do card">
-            <div class="overlay">
-                <p>Verduras</p>
-            </div>
-        </div>
-        <div class="card card-04">
-            <img src="src/assets/img/tomate.jpeg" alt="Imagem do card">
-            <div class="overlay">
-                <p>Frutiferas</p>
-            </div>
-        </div>
-        <div class="card card-05" id="card-cima">
-            <img src="src/assets/img/hortela.jpeg" alt="Imagem do card">
-            <div class="overlay">
-                <p>Condimentares</p>
-            </div>
-        </div>
-    </div>
-    <div class="btn-culturas">
-        <button class="btn-play">
-            <img src="src/assets/img/play.svg" alt="butão" class="icon-play">
-            <p>Veja como funciona</p>
-        </button>
-    </div>
     </section>
 
-    <section class="kit">
-        <div class="titulo-kit">
-            <h2>Personalize seu Dispositivo</h2>
-        </div>
-        <div class="cards-kit">
-            <div class="card-kit">
-                <img src="src/assets/img/medicaodephdosolo.jpg" alt="kit">
-                <h3>ph do solo</h3>
+    <section class="dispositivo">
+        <nav class="menu-opcoes">
+            <button class="opcao active" data-tab="umidadesolo">Kit FloraTech</button>
+            <button class="opcao" data-tab="temperatura">Kit Personalizado</button>
+        </nav>
+        <div class="section-sensores">
+
+            <div class="card-sensores">
+    
+                <div class="card-explicativo active" id="umidadesolo">
+                    <p>O kit de monitoramento de estufas FloraTech foi desenvolvido para proporcionar um acompanhamento preciso e seguro das 
+                        variáveis da sua plantação. Ele utiliza sensores de alta confiabilidade para medir dados essenciais, como umidade do solo, 
+                        temperatura, pH do solo, pH da aguá do reservatório, entre outras informações relevantes.</p>
+                    <img src="src/assets/img/pc-celular.png" alt="Umidade do solo">
+                </div>
+                
+                <div class="card-explicativo" id="temperatura">
+                    <p>kit personalizado FloraTech é projetado sob medida para atender às necessidades específicas de cada cliente.
+                        Sua montagem é totalmente adaptável, permitindo a seleção dos sensores, componentes e recursos mais adequados 
+                        ao tipo de cultivo e às condições da estufa. Essa personalização garante um monitoramento preciso, eficiente e alinhado às particularidades de cada ambiente agrícola.</p>
+                    <img src="src/assets/img/kit-personalizado.png" alt="Temperatura">
+                    <div class="button-kit">
+                        <button><b>Montar meu kit</b></button>
+                    </div>
+                </div>
             </div>
-            <div class="card-kit">
-                <img src="src/assets/img/medicaodeumidade.jpg" alt="kit">
-                <h3>umidade do solo</h3>
-            </div>
-            <div class="card-kit">
-                <img src="src/assets/img/monitoramento.jpg" alt="kit">
-                <h3>Monitoramento Digital</h3>
-            </div>
-        </div>
-        <div class="button-kit">
-            <button>Montar meu kit</button>
-        </div>
-    </section>
+        </div> 
+    </section> 
+    
 
     <div class="barra">
         <div class="divisao web">
-            <img src="src/assets/img/computador.svg" alt="" id="computador">
+            <img src="src/assets/img/computador.svg" alt="Ícone de Computador" id="computador">
             <p>Web</p>
         </div>
         <div class="divisao dados">
-            <img src="src/assets/img/dados.svg" alt="" id="dados">
-            <p>Graficos dos dados</p>
+            <img src="src/assets/img/dados.svg" alt="Ícone de Dados" id="dados">
+            <p>Gráficos dos dados</p>
         </div>
         <div class="divisao mobile">
-            <img src="src/assets/img/mobile.svg" alt="" id="mobile">
+            <img src="src/assets/img/mobile.svg" alt="Ícone de Mobile" id="mobile">
             <p>Mobile</p>
         </div>
     </div>
-    
-    <div class="app">
-        <div class="titulo-app">
-            <h2></h2>
-        </div>
-        <div class="secao-app-01">
-            <div class="app-img">
-                <img src="" alt="">
-            </div>
-            <div class="app-texto">
-                <h3></h3>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-            </div>
-        </div>
-        <div class="secao-app-02">
-            <div class="app-img">
-                <img src="" alt="">
-            </div>
-            <div class="app-texto">
-                <h3></h3>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-            </div>
-        </div>
 
+    <section class="secao-trabalho">
+    <div class="trabalho__overlay"></div>
+    <div class="trabalho__conteudo-principal">
+        <h2 class="trabalho__titulo">Nosso trabalho</h2> 
+        <p class="trabalho__descricao">
+            Estamos presentes em todo o Brasil. Atendemos principalmente, fruticultores, agroindústrias, cooperativas e multinacionais com pesquisas no nosso país.
+        </p>
+        <div class="trabalho__estatisticas">
+            <div class="estatistica-cartao">
+                <p class="estatistica-cartao__numero" data-alvo="1000">+1.000</p>
+                <p class="estatistica-cartao__legenda">Usuários na plataforma</p>
+            </div>
+            
+            <div class="estatistica-cartao">
+                <p class="estatistica-cartao__numero" data-alvo="95">95%</p>
+                <p class="estatistica-cartao__legenda">De aprovação (NPS)</p>
+            </div>
+            
+            <div class="estatistica-cartao">
+                <p class="estatistica-cartao__numero" data-alvo="32">+32</p>
+                <p class="estatistica-cartao__legenda">Hectares mapeados</p>
+            </div>
+        </div>
     </div>
+    </section>
 
     <footer>
-    <div class="texto-footer">
-        <h2>Flora Tech™</h2>
-        <p>Descubra como o FloraTech pode otimizar todos os aspectos do gerenciamento de sua Estufa — sem alterar a maneira como você cultiva.</p>
-    </div>
-    <div class="footer-links">
-        <a href="#">Sobre</a>
-        <a href="src/pages/floratech.html">Sensores</a>
-        <a href="src/pages/graficos.html">Graficos</a>
-    </div>
-    <div class="footer-contato">
-        <p>Email: floratech.contato@gmail.com</p>
-        <p>João Pedro & Pedro Ricardo</p>
-        <p>R. Rita Belarmino Pereira, 556 - Monte Castelo, Ubajara - CE, 62350-000</p>
-    </div>
-    <div class="footer-creditos">
-        <p>© 2025 Flora Tech™.</p>
-    </div>
+        <div class="texto-footer">
+            <h2>Flora Tech™</h2>
+            <p>Descubra como o FloraTech pode otimizar todos os aspectos do gerenciamento de sua Estufa — sem alterar a maneira como você cultiva.</p>
+        </div>
+        <div class="footer-links">
+            <a href="index.html">Sobre</a>
+            <a href="src/pages/floratech.html">Sensores</a>
+            <a href="src/pages/download.html">Download</a>
+        </div>
+        <div class="footer-contato">
+            <p>Email: floratech.contato@gmail.com</p>
+            <p>Equipe FloraTech</p>
+            <p>R. Rita Belarmino Pereira, 556 - Monte Castelo, Ubajara - CE, 62350-000</p>
+        </div>
+        <div class="footer-creditos">
+            <p>© 2025 Flora Tech™.</p>
+        </div>
     </footer>
+
     <script src="src/scripts/index.js"></script>
 </body>
 </html>
